@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--header-bg-color); /* Define in your CSS */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .profile-image {
+    width: 50px; /* Adjust as needed */
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .theme-toggle {
+    cursor: pointer;
+  }
+  
+  .theme-toggle img {
+    width: 25px; /* Adjust as needed */
+    height: 25px;
+  }
+  

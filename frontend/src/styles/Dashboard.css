@@ -1,0 +1,72 @@
+/* styles/Dashboard.css */
+
+.dashboard {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-header p {
+    font-size: 18px;
+    color: var(--text-secondary-color);
+  }
+  
+  .dashboard-section {
+    margin-bottom: 40px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 20px;
+    background: var(--section-bg-color);
+  }
+  
+  .dashboard-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 5px;
+  }
+  
+  .dashboard-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dashboard-section form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .dashboard-section form input,
+  .dashboard-section form textarea,
+  .dashboard-section form select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+  }
+  
+  .dashboard-section form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dashboard-section form button:hover {
+    background-color: var(--primary-color-hover);
+  }
+  

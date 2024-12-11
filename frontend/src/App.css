@@ -1,0 +1,62 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color); /* Theme-aware background */
+  color: var(--text-color); /* Theme-aware text color */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  background-color: var(--header-footer-bg);
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.button-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+a {
+  color: inherit; /* Preserve text color from parent */
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add more global styles here as needed */

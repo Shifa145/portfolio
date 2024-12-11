@@ -1,0 +1,79 @@
+/* components/Home.css */
+
+.home {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .home-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .home-header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .home-header p {
+    font-size: 18px;
+    color: var(--text-secondary-color);
+  }
+  
+  .home-projects, .home-blogs {
+    margin-bottom: 50px;
+  }
+  
+  .home-projects h2, .home-blogs h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .project-list, .blog-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .project-card, .blog-card {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 45%;
+    background-color: var(--card-bg-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card img, .blog-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card h3, .blog-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .project-card p, .blog-card p {
+    font-size: 16px;
+    color: var(--text-secondary-color);
+    margin-bottom: 10px;
+  }
+  
+  .project-card a, .blog-card a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .project-card a:hover, .blog-card a:hover {
+    color: var(--primary-color-hover);
+  }
+  

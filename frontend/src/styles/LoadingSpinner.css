@@ -1,0 +1,13 @@
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  }
+  
+  .spinner-icon {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
+  }
+  

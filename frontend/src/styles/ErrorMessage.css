@@ -1,0 +1,28 @@
+.error-message {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .error-message span {
+    flex-grow: 1;
+  }
+  
+  .error-message button {
+    background-color: #f5c6cb;
+    border: none;
+    color: #721c24;
+    cursor: pointer;
+    padding: 2px 5px;
+    margin-left: 10px;
+    border-radius: 2px;
+    font-size: 12px;
+  }
+  
